@@ -56,10 +56,12 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    filter: drop-shadow(0 0 0.5rem rgb(40, 236, 236));
+    border-radius: 17px;
 
 
     #section-left {
-
+        border-radius: 0 0 0 15px;
         width: 30%;
         background-color: $bgLeft;
         word-break: break-all;
@@ -103,6 +105,7 @@ main {
     #section-right {
         width: 70%;
         background-color: $bgRight;
+        border-radius: 0 0 15px 0;
 
         #moi {
             background-color: $bgField;
