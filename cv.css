@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1E212B;
+  font-family: Helvetica;
+  color: rgb(217, 215, 215);
+}
+body h1 {
+  font-size: 1.7em;
+}
+body legend {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+body a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: rgb(40, 236, 236);
+}
+body .small {
+  font-size: 0.9em;
+}
+body h2 {
+  padding: 0.2em 0 0.2em 0.5em;
+  border: 3px solid #7676b3;
+}
+
+main {
+  padding: 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+main #section-left {
+  width: 30%;
+  background-color: #353551;
+}
+main #section-left #photo-profil img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #section-left .title-left {
+  width: 80%;
+}
+main #section-left #front .img-com {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0.3em 0.3em 0 0;
+}
+main #section-left #coor img {
+  width: 25px;
+  margin: 0.5em 0;
+}
+main #section-left #coor .coor-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+main #section-right {
+  width: 70%;
+  background-color: #212135;
+}
+main #section-right #moi {
+  background-color: #0c0c21;
+  padding: 1.5em 0;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #section-right #moi fieldset {
+  border: 3px snow solid;
+  width: 80%;
+  text-align: center;
+  transform: rotate(180deg);
+}
+main #section-right #moi fieldset legend {
+  padding: 0 0.7em 0 0.7em;
+}
+main #section-right #moi fieldset legend,
+main #section-right #moi fieldset h1 {
+  transform: rotate(180deg);
+}
+main #section-right #info {
+  width: 90%;
+  margin: 0 auto;
+}
+main #section-right #info .ex-pro {
+  display: flex;
+}
+main #section-right #info .ex-pro .annee {
+  line-height: 1.3em;
+  width: 25%;
+}
+main #section-right #info .ex-pro .pro {
+  width: 75%;
+}/*# sourceMappingURL=cv.css.map */

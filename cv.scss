@@ -1,0 +1,153 @@
+$bgColor : #1E212B;
+$color : rgb(217, 215, 215);
+$borderColor : #7676b3;
+$bgLeft :#353551;
+$bgRight: #212135;
+$bgField: #0c0c21;
+
+
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin justifyAlignCenter {
+    @include flexCenter();
+    align-items: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $bgColor;
+    font-family: Helvetica;
+    color: $color;
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    legend {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        color: rgb(40, 236, 236);
+
+    }
+
+    .small {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        padding: 0.2em 0 0.2em 0.5em;
+        border: 3px solid $borderColor
+    }
+}
+
+main {
+    padding: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+
+
+    #section-left {
+
+        width: 30%;
+        background-color: $bgLeft;
+
+        #photo-profil {
+            img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+
+        .title-left {
+            width: 80%;
+        }
+
+        #front {
+            .img-com {
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: 0.3em 0.3em 0 0;
+            }
+        }
+
+        #coor {
+            img {
+                width: 25px;
+                margin: .5em 0;
+            }
+
+            .coor-item {
+                display: flex;
+                align-items: center;
+                gap: 1em;
+            }
+        }
+    }
+
+    #section-right {
+        width: 70%;
+        background-color: $bgRight;
+
+        #moi {
+            background-color: $bgField;
+            padding: 1.5em 0;
+            height: 120px;
+            @include justifyAlignCenter();
+
+            fieldset {
+                border: 3px snow solid;
+                width: 80%;
+                text-align: center;
+                transform: rotate(180deg);
+
+                legend {
+                    padding: 0 .7em 0 0.7em
+                }
+
+                legend,
+                h1 {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        #info {
+            width: 90%;
+            margin: 0 auto;
+
+            .ex-pro {
+                display: flex;
+
+                .annee {
+                    line-height: 1.3em;
+                    width: 25%;
+                }
+
+                .pro {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+// #test {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
