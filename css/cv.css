@@ -61,7 +61,7 @@ main #section-left #coor img {
 main #section-left #coor .coor-item {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 0.8em;
 }
 main #section-right {
   width: 70%;
