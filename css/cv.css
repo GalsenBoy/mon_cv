@@ -35,6 +35,7 @@ main {
 main #section-left {
   width: 30%;
   background-color: #353551;
+  word-break: break-all;
 }
 main #section-left #photo-profil img {
   width: 100%;
