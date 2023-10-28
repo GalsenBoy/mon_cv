@@ -67,6 +67,14 @@ main {
         background-color: $bgLeft;
         word-break: break-all;
 
+        #content-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 75%;
+            padding-left: 1.5em;
+        }
+
         #photo-profil {
             img {
                 width: 100%;
@@ -248,6 +256,10 @@ main {
                     height: 175px;
                 }
 
+            }
+
+            #content-left {
+                padding-left: 0.5em;
             }
 
             #front {
