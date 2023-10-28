@@ -165,3 +165,66 @@ main {
     border: 2px solid $bgLeft;
 
 }
+
+@media screen and (max-width: 775px) {
+    body {
+        h1 {
+            font-size: 1.3em;
+        }
+
+        legend {
+            font-size: 0.8em;
+        }
+
+        h2 {
+            font-size: 1em;
+            padding: .5em 0.5em 0.5em;
+        }
+
+        h3 {
+            font-size: 0.8em;
+        }
+    }
+
+    main {
+
+        a,
+        span {
+            font-size: 0.82em;
+        }
+
+        #mail {
+            font-size: 0.9em;
+        }
+
+        #section-left {
+            #photo-profil {
+                img {
+                    height: 200px;
+                }
+            }
+
+            #front {
+                .img-com {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+        }
+
+        #section-right {
+            .ex-pro {
+                p {
+                    font-size: 0.9em;
+                }
+
+                .small {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+
+    }
+}
