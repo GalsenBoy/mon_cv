@@ -180,6 +180,9 @@ main #section-right #info .ex-pro .pro {
   main #section-left #content-left {
     padding-left: 0.5em;
   }
+  main #section-left #content-left .coor-item img {
+    width: 15px;
+  }
   main #section-left #front .img-com {
     width: 20px;
     height: 20px;
