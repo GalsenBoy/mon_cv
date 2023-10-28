@@ -120,4 +120,40 @@ main #section-right #info .ex-pro .pro {
   background-color: #1E212B;
   border-radius: 20px;
   border: 2px solid #353551;
+}
+
+@media screen and (max-width: 775px) {
+  body h1 {
+    font-size: 1.3em;
+  }
+  body legend {
+    font-size: 0.8em;
+  }
+  body h2 {
+    font-size: 1em;
+    padding: 0.5em 0.5em 0.5em;
+  }
+  body h3 {
+    font-size: 0.8em;
+  }
+  main a,
+  main span {
+    font-size: 0.82em;
+  }
+  main #mail {
+    font-size: 0.9em;
+  }
+  main #section-left #photo-profil img {
+    height: 200px;
+  }
+  main #section-left #front .img-com {
+    width: 30px;
+    height: 30px;
+  }
+  main #section-right .ex-pro p {
+    font-size: 0.9em;
+  }
+  main #section-right .ex-pro .small {
+    font-size: 0.7em;
+  }
 }/*# sourceMappingURL=cv.css.map */
