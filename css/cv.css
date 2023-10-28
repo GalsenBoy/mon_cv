@@ -106,4 +106,18 @@ main #section-right #info .ex-pro .annee {
 }
 main #section-right #info .ex-pro .pro {
   width: 75%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #353551;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1E212B;
+  border-radius: 20px;
+  border: 2px solid #353551;
 }/*# sourceMappingURL=cv.css.map */

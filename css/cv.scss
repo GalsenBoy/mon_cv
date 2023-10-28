@@ -151,8 +151,17 @@ main {
     }
 }
 
-// #test {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// }
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: $bgLeft;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $bgColor;
+    border-radius: 20px;
+    border: 2px solid $bgLeft;
+
+}
